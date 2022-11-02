@@ -1,0 +1,55 @@
+body {
+    height: 100vh;
+    background-color: hsl(218, 23%, 16%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+main {
+    width: 445px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    background-color: hsl(217, 19%, 24%);
+    text-align: center;
+    position: relative;
+    padding: 20px;
+}
+
+div :first-child {
+    color: hsl(150, 100%, 66%);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+}
+
+div :last-child {
+    color: hsl(193, 38%, 86%);
+    font-size: 28px;
+}
+
+picture img {
+    width: 380px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: hsl(150, 100%, 66%);
+    border: none;
+    position: absolute;
+    bottom: -25px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.2);
+    border: 3px solid #000;
+}
